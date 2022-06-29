@@ -11,7 +11,8 @@ const GifExpertApp = () => {
 
   return (
     <>
-      <h1>{import.meta.env.VITE_APP_TITLE}</h1>
+      {/* <h1>{import.meta.env.VITE_APP_TITLE}</h1> */}
+      <h1>GifExpertApp</h1>
 
       <AddCategory 
         onNewCategory={onAddCategory}
